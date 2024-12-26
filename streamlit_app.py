@@ -37,7 +37,7 @@ if __name__ == "__main__":
         st.session_state.no_stock_message_shown = False
 
     # Input field for user to add a stock
-    stock_ticker = st.text_input("Enter Stock Ticker (e.g., IREDA:NSE):", "")
+    stock_ticker = st.text_input("Enter Stock Ticker (e.g., IREDA):", "")
 
     # Button to add stock to the list
     if st.button("Add Stock"):
